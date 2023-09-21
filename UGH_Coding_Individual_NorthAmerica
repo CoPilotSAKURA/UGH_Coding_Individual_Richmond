@@ -1,0 +1,36 @@
+var theadData = {
+    "1" : ["time"],
+    "2" : ["direction"],
+    };
+    const tbodyData = {
+    "1": ['1:30', 'A'],
+    "2": ['2:30', 'A'],
+    "3": ['3:30', 'A'],
+    "4": ['4:30', 'A'],
+    "5": ['5:30', 'A'],
+    "6": ['6:30', 'A'],
+    "7": ['1:30', 'B'],
+    "8": ['2:30', 'B'],
+    "9": ['3:30', 'B'],
+    "10": ['4:30', 'B'],
+    "11": ['5:30', 'B'],
+    "12": ['6:30', 'B']
+    };
+    const tableClass = "table";
+
+
+
+var p = document.getElementById('paragraph')
+var timetable = document.getElementById('t')
+function money() {
+    stations = prompt("How many stations are you going through?");
+    people = prompt("How many people are with you?");
+    price2A = (station*2.5)
+    price2B = (people*1.5)
+    price2 = (price2A + price2B)
+    price1 = stations*2*people
+    if (price1 < price2) ;
+        print ("Going on Public Transit is more worth it!")
+    if (price1 > price2) ;
+        print ("Hiring a Private Vehicle is more worth it!")
+}
